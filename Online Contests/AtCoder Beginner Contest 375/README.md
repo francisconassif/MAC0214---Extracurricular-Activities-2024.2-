@@ -8,4 +8,4 @@ Final Results:
 - G : Not Tried
 
 Contest duration: 100 minutes
-Date: October 27th
+Date: October 26th
