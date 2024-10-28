@@ -21,28 +21,14 @@ signed main(){ _
     int t; cin >> t;
     while(t--){
         int qtd; cin >> qtd; 
-        map<int,int> maximos;
         int maxw = 0;
+        int maxh = 0;
         while(qtd--){
             int w, h; cin >> w >> h;
             maxw = max(maxw, w);
-            FOR(i, 1, w+1){
-                if(maximos.find(i)!=maximos.end()){
-                    maximos[i] = max(maximos[i], h);
-                }
-                else{
-                    maximos[i] = h;
-                }
-            }
+            maxh = max(maxh, h);
         }
-        int ans = maximos[1] + 2;
-        int prev = maximos[1];
-        FOR(i, 2, maxw){
-            ans += prev - maximos[i] + 2;
-            prev = maximos[i];
-        }
-        ans += prev - maximos[maxw];
-        ans += maximos[maxw] + 2;
+        int ans = 2*(maxw+maxh);
         cout<<ans<<endl;
     }
 
