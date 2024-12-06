@@ -7,18 +7,17 @@ All code will be developed in C++. The 'default.cpp' file, containing the necess
 
 I have also used their book to guide my studies.
 
-Here is a list of the topics to be studied throughout the weeks:
+Here is a list of the studied topics:
   - 2-Pointers
   - BFS and Dijkstra
   - Dynamic Programming
-  - Segment Trees
-  - Number Theory
   - Line Sweep
   - Geometry
-  - Tries
-  - Suffix Arrays
-  - Maximum Matchings
-  - Flows
+  - LCA
+  - Greedy
+  - STL
+  - DFS
+  - UnionFind
   - Combinatorics
 
 The supervisor of this project is Enrique Junchaya, our coach from the MaratonUSP group. The report will be written in Portuguese as required by the university.
