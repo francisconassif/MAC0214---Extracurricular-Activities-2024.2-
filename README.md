@@ -1,4 +1,4 @@
-# MAC0214 - Extracurricular Activities 2024.2
+# MAC0214 - Extracurricular Activities 2024.2 
 Repository for the USP course 'MAC0214 - Extracurricular Activities', taken during the second semester of 2024.
 
 The main goal is to develop competitive programming skills and compete in multiple tournaments, including the SBC Programming Marathon, the most important competition in Brazil. I intend to participate in all possible contests over the next couple of years.
